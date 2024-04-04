@@ -1,0 +1,110 @@
+body{
+    width: auto;
+    margin: 0px auto;
+}
+
+.container {
+    width: 100%;
+    margin: auto;
+}
+
+.logo{
+    margin-top: 100px;
+    display: flex;
+    
+    background-color: antiquewhite;
+}
+.logo img{
+    width: 300px;
+    height: 200px;
+}
+.button{
+    margin-top: 200px;
+}
+.banner{
+    width: 500px;
+    height: 100px;
+}
+button{
+    width: 100px;
+    height: 50px;
+}
+input{
+    width: 200px;
+    height: 50px;
+}
+.banner img{
+    width: 100%;
+}
+.menu{
+    display: flex;
+    background-color: thistle;
+    color: black;
+    height: 50px;
+    align-items: center;
+}
+.menu a{
+    margin-left: 10%;
+    text-decoration: none;
+    font-size: 20px;  
+}
+.menu a:hover{
+    background-color: aqua;
+    padding: 15px;  
+}
+.tintuc{
+    display: flex;
+    margin: 10px;
+    border: 1px solid gray;
+}
+.tintuc img{
+    margin: 5px;
+}
+.hang{
+    display: flex;
+    width: 100%;
+}
+.mauhot img{
+    width: 80%;
+}
+.mauhot{
+    text-align: center;
+    border: 1px solid gray;
+    margin: 10px;
+}
+footer{
+    background-color: bisque;
+    text-align: center;
+    padding: 10px;
+}
+@media screen and (max-width:600px) {
+    body{
+        width: 500px;
+    }
+    .menu{
+        height: 300px;;
+        display: grid;
+        align-items: center;
+    }}
+
+    @media screen and (max-width:768px) {
+        body{
+            width: 700px;
+        }
+        .menu{
+            height: 400px;;
+            display: grid;
+            align-items: center;
+        }
+    
+    .hang{
+        display: block;
+    }
+    .tintuc{
+        display: grid;
+    }
+    .tintuc img{
+        width: 98%;
+    }
+    
+}
